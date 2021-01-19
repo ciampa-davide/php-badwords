@@ -23,7 +23,7 @@ badword passata in GET con tre *. -->
   <h1>Paragrafo originale</h1>
   <p><?php echo $text; ?></p>
   <h2>Paragrafo modificato</h2>
-  <p><?php echo str_replace("et",$bad ,$text); ?></p>
+  <p><?php echo str_replace($bad,"***" ,$text); ?></p>
   <p>Lunghezza del paragrafo:n° caratteri<?php echo strlen($text); ?></p>
 </body>
 </html>
